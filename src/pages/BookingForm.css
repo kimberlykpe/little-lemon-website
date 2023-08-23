@@ -1,0 +1,132 @@
+.Field {
+    text-align: center;
+    margin: 2px 0;
+}
+
+.Booking {
+  background-image: url("../images/menu-background.jpg");
+}
+
+@media (max-width: 800px) {
+  .Booking img {
+
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Booking img {
+      width: 100%;
+      object-fit: cover;
+      object-position: bottom;
+  }
+}
+
+@media (max-width: 800px) {
+  form {
+
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+  }
+}
+
+
+
+label {
+    display: block;
+    font-family: "Markazi Text", serif;
+    font-size: 1.25em;
+    color: black;
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: "Markazi Text", serif;
+    width: 20%;
+    padding: 5px;
+  }
+  textarea {
+    height: 250px;
+  }
+
+  
+  button {
+    height: 50px;
+    background-color: #495e57;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Markazi Text", serif;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    padding: 1rem 1rem;
+    margin-left: 45%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .button-div button:hover {
+    border: 2px solid black;
+  }
+
+.booking-title h2{
+    font-family: "Markazi Text", serif;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+}
+
+@media (max-width: 513px) {
+  .booking-title h2{
+    display: flex;
+    width: 100%;
+    font-size: 50px;
+    justify-content: center;
+  }
+
+  input, select, textarea {
+    width: 40%;
+  }
+
+  button {
+    margin-left: 35%;
+  }
+}
+
+@media (max-width: 800px) {
+  .h2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  input, select, textarea {
+    width: 40%;
+  }
+
+  button {
+    margin-left: 35%;
+  }
+}
+
+@media (max-width: 1024px) {
+  input, select, textarea {
+    width: 40%;
+  }
+
+  button {
+    margin-left: 40%;
+  }
+}
+.FieldError {
+  color: red;
+  font-family: "Markazi Text", serif;
+}

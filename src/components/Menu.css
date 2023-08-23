@@ -1,0 +1,15 @@
+@media (max-width: 800px) {
+    .header-reserve {
+        width: 100%;
+        object-fit: cover;
+        object-position: bottom;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header-reserve {
+        width: 100%;
+        object-fit: cover;
+        object-position: bottom;
+    }
+}
